@@ -3,29 +3,24 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body{
   font-family: 'Fredoka One', cursive;
-  background-image: linear-gradient(to right, #6cb7dc, #741a78);
+  background-image:linear-gradient(to right, #54a4cc, #b67fb9);
+  padding: 1%;
 }
 
-.container{
-  width: 1280px;
-  margin: auto;
-}
+
 
 #header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   min-height: 70px;
-  padding: 0 20px;
 }
 
-#header h2{font-size: 2rem;}
+
 
 .user_input{
   margin-top: 4px;

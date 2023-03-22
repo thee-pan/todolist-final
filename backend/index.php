@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<link rel="stylesheet" href="../style1.scss">
+	<link rel="stylesheet" href="../style2.css">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
 		<div class="color"></div>
 		<div class="color"></div>
 		<div class="title">
-			<h1>TODO LIST</h1>
+			<h1>TODO LIST</h1> <br><br>
 		</div>
 		<div class="box">
 			<div class="square" style="--i:0;"></div>

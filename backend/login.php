@@ -44,7 +44,7 @@
 
                 <p>
                 <h3>Don't have an account?
-                    <a href="signup_index.php">SignUp</a>
+                    <a href="index.php">SignUp</a>
                 </h3>
                 </p>
 

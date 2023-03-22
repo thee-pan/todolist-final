@@ -13,29 +13,35 @@ if (isset($_SESSION['User'])) {
 		<link rel="shortcut icon" type="image/png" href="list.png" />
 
 		<link rel="stylesheet" href="../css/bootstrap.css">
+
 		<link rel="stylesheet" href="../style.css">
 
 		<title>To-do List</title>
 	</head>
 
 	<body>
-		<header>
-			<div class="container">
-				<div id="header">
-					<h2><i class="fas fa-clipboard-check"></i> To-do List</h2>
-					<?php
-					echo '<a href="logout.php?logout">Logout</a>';
-					?>
+		<div class="navbar">
+			<div id="header" class="me-auto">
+				<h1 style="color: black;"><i class="fas fa-clipboard-check"></i> To-do List</h1>
 
-				</div>
+				<?php
+				echo '<h3 style="color: black;">Welcome ' . $_SESSION['User'] . '</h3>';
+				?>
+
+				<h3><a href="logout.php?logout" style="color: black;">Logout</a></h3>
+
+
 			</div>
-		</header>
+		</div>
 
 		<div class="col-md-3"></div>
+
 		<div class="col-md-6 well">
 			<hr style="border-top:1px dotted #ccc;" />
 			<div class="col-md-2"></div>
+
 			<div class="col-md-8">
+
 				<center>
 					<form method="POST" class="form-inline" action="add_query.php">
 						<input type="text" autocomplete="off" class="form-control" name="task" required />
